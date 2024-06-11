@@ -1,0 +1,11 @@
+nav.navbar{
+    background-color: var(--header-color) !important;
+    
+}
+.nav-link {
+    color: var(--subheading-color) !important;
+}
+.nav-link:hover {
+    color: var(--subheading-color) !important;
+    font-variant: underline;
+}

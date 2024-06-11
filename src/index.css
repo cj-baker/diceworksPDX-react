@@ -1,3 +1,16 @@
+@font-face {
+  font-family: solander;
+  src: url(./fonts/solander.ttf);
+}
+:root {
+  --body-background: whitesmoke;
+  --primary-background: #7a8255;
+  --secondary-background: #56623e;
+  --primary-font: "Open Sans", sans-serif;
+  --header-color: #302910;
+  --subheading-color: #b7a97e;
+  --header-font: "solander";}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
