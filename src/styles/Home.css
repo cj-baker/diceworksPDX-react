@@ -47,9 +47,12 @@
   min-height: fit-content;
   padding: 60px 0;
 }
-.App-main h2{
+h2{
   font-size: 8vmin;
   font-family: var(--header-font);
+}
+h3{
+  padding-top: 10px;
 }
 
 @keyframes App-logo-spin {

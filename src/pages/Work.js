@@ -1,7 +1,11 @@
+import Navigation from "../components/Navigation"
+import "../styles/Work.css"
 function Work() {
     return(
-        <div
-    >Our Work</div>
+        <body>
+            <Navigation/>
+            <h1>Our Work</h1>
+        </body>
     )
 
 }

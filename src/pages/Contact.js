@@ -1,7 +1,13 @@
+import Navigation from "../components/Navigation"
+import "../styles/Contact.css"
+
+
 function Contact(){
 return(
-    <div
->Contact Us</div>
+    <body>
+        <Navigation/>
+        <h1>Contact Us</h1>
+    </body>
 )
 
 }

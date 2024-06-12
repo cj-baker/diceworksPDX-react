@@ -15,7 +15,7 @@ function Home() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>DiceworksPDX</h1>
         <Hexagons />
-        <h2>Custom dice to fit your playstyle.</h2>
+        <h3>Custom dice to fit your playstyle.</h3>
         <button onClick={() => document.getElementById('homepage')?.scrollIntoView()}
             type="button"
             className="btn btn-outline-light"
