@@ -4,7 +4,7 @@ function Work() {
     return(
         <body>
             <Navigation/>
-            <h1>Our Work</h1>
+            <h2>Our Work</h2>
         </body>
     )
 

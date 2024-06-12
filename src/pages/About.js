@@ -5,7 +5,7 @@ export default function About() {
     return(
         <body>
         <Navigation/>
-        <h1>About Us</h1>
+        <h2>About Us</h2>
         </body>
     )
 }

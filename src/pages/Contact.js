@@ -6,7 +6,7 @@ function Contact(){
 return(
     <body>
         <Navigation/>
-        <h1>Contact Us</h1>
+        <h2>Contact Us</h2>
     </body>
 )
 
