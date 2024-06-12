@@ -23,7 +23,7 @@ export default function Navigation() {
             Our Work
           </Nav.Link>
         <Nav.Item>
-          <Nav.Link eventKey="link-3">Shop</Nav.Link>
+          <Nav.Link href="https://diceworkspdx.myshopify.com/" rel="noopener noreferrer" eventKey="link-3">Shop</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey="link-4" >
