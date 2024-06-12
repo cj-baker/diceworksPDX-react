@@ -1,0 +1,8 @@
+body{
+background-color: var(--primary-background);
+  min-height: fit-content;
+  padding: 60px 0;
+  text-align: center;
+  color: var(--subheading-color);
+  font-family: var(--primary-font);
+}
