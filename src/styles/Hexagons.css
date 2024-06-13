@@ -26,7 +26,7 @@
     );
   }
   .hex {
-    font-size: 8vmin;
+    font-size: 52px;
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 50%;
@@ -65,7 +65,7 @@
   .shape-overlay{
     font-family: var(--header-font);
     position: absolute;
-    padding-top: 10vmin;
+    padding-top: 5vmax;
     padding-right: 1vmin;
     top: 0;
     left: 0;
@@ -78,9 +78,33 @@
     justify-content: center;
     opacity: 0;
     transition: opacity 0.25s;
+    
   }
   .shape-overlay:hover{
     opacity: 1;
     
     }
-  
+
+    @media (max-width: 1250px) {
+      .hex{
+        font-size: 45px;
+      }
+    }
+    
+    @media (max-width: 992px) {
+      .hex{
+        font-size: 32px;
+      }
+    }
+    
+   
+    @media (max-width: 767px) {
+      .shape-overlay{
+        padding-top: 5vmax;
+      }
+      .hex{
+        font-size: 10px;
+      }
+    }
+    
+   
