@@ -1,15 +1,14 @@
-body{
+.about-body{
   background-color: var(--primary-background);
   background-image: url(../images//dice-vector1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: fit-content;
   text-align: center;
   color: var(--subheading-color);
   font-family: var(--primary-font);
 }
 
-main{
+.about-main{
   padding: 80px 0;
   
 }

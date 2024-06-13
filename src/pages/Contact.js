@@ -4,12 +4,12 @@ import "../styles/Contact.css"
 
 function Contact(){
 return(
-    <body>
+    <body className="contact-body">
         <Navigation/>
-        <main>
+        <main className="contact-main">
         <h2>Contact Us</h2>
         </main>
-    </body>
+        </body>
 )
 
 }

@@ -2,9 +2,9 @@ import Navigation from "../components/Navigation"
 import "../styles/Work.css"
 function Work() {
     return(
-        <body>
+        <body className="work-body">
             <Navigation/>
-            <main>
+            <main className="work-main">
             <h2>Our Work</h2>
             </main>
         </body>

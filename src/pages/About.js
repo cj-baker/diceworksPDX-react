@@ -5,9 +5,9 @@ import "../styles/About.css"
 export default function About() {
 
     return(
-        <body>
+        <body className="about-body">
         <Navigation/>
-        <main>
+        <main className="about-main">
         <h2>About Us</h2>
         </main>
         </body>

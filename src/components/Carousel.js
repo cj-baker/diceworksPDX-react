@@ -5,10 +5,11 @@ import "../styles/Carousel.css"
 
 export default function Carousel() {
     return(
-        
+   
 <Splide  options={ {
     rewind: true,
-    width: '100vmax',
+    width: '100vw',
+    heightRatio: '0.35',
     type :'loop',
     gap  : '1vmin',
     autoplay: true,
