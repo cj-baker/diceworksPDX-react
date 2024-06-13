@@ -10,7 +10,7 @@ export default function Navigation() {
     return (
         <Navbar expand="lg" bg="dark" fixed="top">
           <Container fluid>
-            <Navbar.Brand href="/"><FaDiceD20 color="#f1e383" size="1.8rem"/></Navbar.Brand>
+            <Navbar.Brand href="#/"><FaDiceD20 color="#f1e383" size="1.8rem"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
               <Nav className="justify-content-end"  variant="underline"activeKey="/home">
