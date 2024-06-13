@@ -21,7 +21,7 @@ export default function Hexagons() {
             </div></a></div>
           <div className="hex fourth"><div className="shape"></div>
             <a href="#/contact"><div className="shape-overlay">
-             Contact Us
+             Contact
             </div></a></div>
         </div>
       </div>
