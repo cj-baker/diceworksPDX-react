@@ -7,12 +7,12 @@ export default function Hexagons() {
         <div className="hexContainer">
           <div className="hex first">
             <div className="shape"></div>
-            <a href="./about"><div className="shape-overlay">
+            <a href="#/about"><div className="shape-overlay">
               About Us
             </div></a>
           </div>
           <div className="hex second"><div className="shape"></div>
-            <a href="./work"><div className="shape-overlay">
+            <a href="#/work"><div className="shape-overlay">
               Our Work
             </div></a></div>
           <div className="hex third"><div className="shape"></div>
@@ -20,7 +20,7 @@ export default function Hexagons() {
               Shop Dice
             </div></a></div>
           <div className="hex fourth"><div className="shape"></div>
-            <a href="./contact"><div className="shape-overlay">
+            <a href="#/contact"><div className="shape-overlay">
              Contact Us
             </div></a></div>
         </div>
