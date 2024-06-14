@@ -8,6 +8,7 @@ return(
         <Navigation/>
         <main className="contact-main">
         <h2>Contact Us</h2>
+        
         </main>
         </body>
 )
