@@ -1,5 +1,6 @@
 import Navigation from "../components/Navigation"
 import "../styles/About.css"
+import Footer from "../components/Footer"
 
 
 export default function About() {
@@ -10,6 +11,7 @@ export default function About() {
         <main className="about-main">
         <h2>About Us</h2>
         </main>
+        <Footer/>
         </body>
     )
 }

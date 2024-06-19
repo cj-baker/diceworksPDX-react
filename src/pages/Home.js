@@ -28,7 +28,9 @@ function Home() {
       <h2 >Recent Works</h2>
       <Carousel />
       </main>
-      
+      <footer>
+        <h1>This is the Footer</h1>
+      </footer>
     </div>
   );
 }

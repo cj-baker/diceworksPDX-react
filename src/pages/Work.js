@@ -12,6 +12,9 @@ function Work() {
             <p>Take a peek at some past pours and some unfinished gems.</p>
             <ImageGallery />
             </main>
+            <footer>
+        <h1>This is the Footer</h1>
+      </footer>
         </body>
     )
 
