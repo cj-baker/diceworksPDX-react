@@ -3,6 +3,7 @@ import '../styles/Home.css';
 import Navigation from "../components/Navigation"
 import Hexagons from '../components/Hexagons';
 import Carousel from "../components/Carousel"
+import Footer from '../components/Footer';
 
 function Home() {
   return (
@@ -28,9 +29,7 @@ function Home() {
       <h2 >Recent Works</h2>
       <Carousel />
       </main>
-      <footer>
-        <h1>This is the Footer</h1>
-      </footer>
+      <Footer/>
     </div>
   );
 }

@@ -1,0 +1,22 @@
+
+
+.social-link {
+    margin: 30px 10px;
+    padding: 20px 20px;
+    background-color: var(--primary-background);
+    border-radius: 360px;
+  }
+  .social-link:hover {
+    background-color: var(--header-color);
+    transition: all 150ms ease-in-out;
+  }
+  .source-code-link{
+    color: white;
+    text-decoration: none;
+  }
+  footer{
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: var(--secondary-background);
+  }

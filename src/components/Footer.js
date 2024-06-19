@@ -1,40 +1,45 @@
 import React from "react";
+import "../styles/Footer.css"
 import { FaInstagram } from "react-icons/fa";
 import { FaShopify } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 
 export default function Footer(){
     return (
-        <div>
+        <footer>
         <div className="social-container d-flex justify-content-center">
           <a
-            href="https://github.com/cj-baker"
+            href="https://www.instagram.com/diceworkspdx"
+            className="social-link"
             target="_blank"
             rel="noreferrer"
-            title="Casey's GitHub Profile"
-            ><FaInstagram/></a>
+            title="DiceworkPDX's Instagram"
+            ><FaInstagram color="#f1e383" size="7vmin" /></a>
           <a
-            href="https://diceworkspdx.shopify.com"
+            href="https://diceworkspdx.myshopify.com/"
+            className="social-link"
             target="_blank"
             rel="noreferrer"
             title="DiceworksPDX Shop"
-            ><FaShopify/></a>
-          <a href="mailto:diceworkspdx@gmail.com" title="Send the Diceworks Team and Email"
-            ><FaEnvelope/>
+            ><FaShopify color="#f1e383" size="7vmin"/></a>
+          <a href="mailto:diceworkspdx@gmail.com" className="social-link" title="Send the DiceworksPDX team an Email"
+            ><FaEnvelope color="#f1e383" size="7vmin"/>
           </a>
         </div>
         <div className="source-code">
           <p className="">
-            This website was coded by Casey Baker and is
+          Copyright © 2023 DiceworksPDX
+          <br />
+            This website was coded by Casey Baker and is 
             <a
               className="source-code-link"
-              href="https://github.com/cj-baker/Portfolio"
+              href="https://github.com/cj-baker/diceworkspdx-react"
               target="_blank"
               rel="noreferrer"
               title="Go to the GitHub Repository for this Website"
-              >Open Sourced</a>
+              > Open Sourced</a>
           </p>
         </div>
-    </div>
+    </footer>
     )
 }
