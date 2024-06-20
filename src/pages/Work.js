@@ -5,7 +5,7 @@ import Footer from "../components/Footer"
 
 function Work() {
     return(
-        <body className="work-body">
+        <div className="work-body">
             <Navigation/>
             
             <header className="work-header"><h2>Our Work</h2>
@@ -14,7 +14,7 @@ function Work() {
             <ImageGallery />
             </main>
             <Footer/>
-        </body>
+        </div>
     )
 
 }

@@ -6,7 +6,7 @@ import "../styles/Contact.css"
 
 function Contact(){
 return(
-    <body className="contact-body">
+    <div className="contact-body">
         <Navigation/>
         <header className="contact-header">
         <h2>Contact Us</h2>
@@ -21,7 +21,7 @@ return(
         
         </main>
         <Footer/>
-        </body>
+        </div>
 )
 
 }
