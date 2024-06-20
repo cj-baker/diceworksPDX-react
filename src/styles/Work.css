@@ -5,13 +5,20 @@
     background-size: contain;
     background-position: center;
     text-align: center;
+    height: auto;
     color: var(--subheading-color);
     font-family: var(--primary-font);
   }
   
-  .work-main{
-    padding: 80px 0;
+  .work-header{
+    padding-top: 80px;
+    padding-bottom: 1vmin;
+    background-color: var(--secondary-background);
     
+  }
+
+  .work-main {
+    padding: 5vmin 0;
   }
   
   

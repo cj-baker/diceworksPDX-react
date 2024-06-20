@@ -8,8 +8,10 @@ export default function About() {
     return(
         <body className="about-body">
         <Navigation/>
-        <main className="about-main">
+        <header className="about-header">
         <h2>About Us</h2>
+        </header>
+        <main className="about-main">
         </main>
         <Footer/>
         </body>

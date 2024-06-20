@@ -5,12 +5,18 @@
   background-size: contain;
   background-position: center;
   text-align: center;
+  height: auto;
   color: var(--subheading-color);
   font-family: var(--primary-font);
 }
 
-.about-main{
-  padding: 80px 0;
+.about-header{
+  padding-top: 80px;
+  padding-bottom: 1vmin;
+  background-color: var(--secondary-background);
   
 }
 
+.about-main {
+  padding: 5vmin 0;
+}

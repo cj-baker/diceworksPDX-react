@@ -5,13 +5,26 @@
   background-size: contain;
   background-position: center;
   text-align: center;
+  height: auto;
   color: var(--subheading-color);
   font-family: var(--primary-font);
   }
   
-  main{
-    padding: 80px 0;
+  .contact-header{
+    padding-top: 80px;
+    margin-bottom: 5vmin;
+    background-color: var(--secondary-background);
     
   }
   
-  
+  .contact-main {
+    padding: 5vmin 0;
+  }
+  .order-link{
+    color: white;
+    text-decoration: none;
+  }
+  .order-link:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
