@@ -20,3 +20,21 @@
 .about-main {
   padding: 5vmin 0;
 }
+.about-paragraph {
+  text-align: start;
+  max-width: 300px;
+  font-size: 18px;
+}
+.about-image {
+  max-height: 300px;
+  border-radius: 180px;
+  border: double 3px;
+}
+
+@media (max-width: 990px) {
+  .about-paragraph {
+    padding-top: 20px;
+    text-align: center;
+      
+   }
+}
