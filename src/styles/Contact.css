@@ -6,13 +6,13 @@
   background-position: center;
   text-align: center;
   height: auto;
-  color: var(--subheading-color);
+  color: var(--primary-color);
   font-family: var(--primary-font);
   }
   
   .contact-header{
     padding-top: 80px;
-    background-color: var(--secondary-background);
+    
     
   }
   
@@ -27,7 +27,7 @@
     height: 25vmax;
   }
   .order-link{
-    color: white;
+    color: var(--link-color);
     text-decoration: none;
   }
   .order-link:hover{

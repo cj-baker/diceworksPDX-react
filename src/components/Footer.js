@@ -14,16 +14,16 @@ export default function Footer(){
             target="_blank"
             rel="noreferrer"
             title="DiceworkPDX's Instagram"
-            ><FaInstagram color="#f1e383" size="7vmin" /></a>
+            ><FaInstagram color="#62925f" size="7vmin" /></a>
           <a
             href="https://diceworkspdx.myshopify.com/"
             className="social-link"
             target="_blank"
             rel="noreferrer"
             title="DiceworksPDX Shop"
-            ><FaShopify color="#f1e383" size="7vmin"/></a>
+            ><FaShopify color="#62925f" size="7vmin"/></a>
           <a href="mailto:diceworkspdx@gmail.com" className="social-link" title="Send the DiceworksPDX team an Email"
-            ><FaEnvelope color="#f1e383" size="7vmin"/>
+            ><FaEnvelope color="#62925f" size="7vmin"/>
           </a>
         </div>
         <div className="source-code">

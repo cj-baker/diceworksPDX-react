@@ -7,20 +7,20 @@
     border-radius: 360px;
   }
   .social-link:hover {
-    background-color: var(--header-color);
+    background-color: var(--link-color);
     transition: all 150ms ease-in-out;
   }
   .source-code-link{
-    color: white;
+    color: var(--link-color);
     text-decoration: none;
   }
   .source-code-link:hover{
     color: var(--primary-color);
-    text-decoration: underline;
+    text-decoration: none;
   }
   footer{
     width: 100%;
     padding: 10px 0;
     text-align: center;
-    background-color: var(--secondary-background);
+    background-color: var(--header-color);
   }

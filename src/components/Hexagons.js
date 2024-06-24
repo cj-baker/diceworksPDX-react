@@ -19,10 +19,7 @@ export default function Hexagons() {
             <a href="https://diceworkspdx.myshopify.com/" rel="noopener noreferrer"><div className="shape-overlay">
               Shop Dice
             </div></a></div>
-          <div className="hex fourth"><div className="shape"></div>
-            <a href="#/contact"><div className="shape-overlay">
-             Contact
-            </div></a></div>
+          
         </div>
       </div>
     )}

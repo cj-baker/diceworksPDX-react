@@ -7,12 +7,14 @@
   src: url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf);}
 
 :root {
-  --primary-background: #7a8255;
-  --secondary-background: #56623e;
+  --primary-background: #31622c;
+  --secondary-background: #ebd8c8;
   --primary-font: "OpenSans", sans-serif;
-  --header-color: #302910;
-  --subheading-color: #f1e383;
-  --header-font: "solander";}
+  --header-font: "solander";
+  --header-color: #62925f;
+  --link-color: #f1e383;
+  --primary-color: white;
+ }
 
   body {
     min-width: fit-content;

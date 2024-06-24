@@ -16,7 +16,7 @@ function Home() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>DiceworksPDX</h1>
         <Hexagons />
-        <h3>Custom dice to fit your playstyle.</h3>
+        <h3>Whimsical, one-of-a-kind sharp edge resin dice that are handcrafted right here in the Pacific Northwest</h3>
         <button onClick={() => document.getElementById('homepage')?.scrollIntoView()}
             type="button"
             className="btn btn-outline-light"
@@ -25,7 +25,15 @@ function Home() {
             Let's Roll
           </button>
       </header>
+    
       <main className='App-main Container' id="homepage">
+        <h2>Custom Pours</h2>
+        <img className='custom-dice' src='https://lh3.googleusercontent.com/d/11fjGeliGm9T2hgbV6RY2QfDcIYh8Mpbi' alt='image of custom wedding dice'/>
+        <p className='custom-paragraph'>Want a set of dice that evokes your favorite D&D character? Wish that one of our sets was in a different color? Certain styles of our dice are available for custom designs! Find a style that you like, pick your favorite color(s) and fill out the Custom Dice Order Form. 
+<br/><br/>
+Dice don’t need to stay in the dungeon - we also do customized dice for larger events such as parties, weddings and birthdays like these specially-made D20 wedding favors. If you’d like to bring a little adventure to your next event, please 
+ <a href='#/contact' className='contact-link' title='Contact Page'> email us </a> to get the dice rolling!
+ </p>
       <h2 >Recent Works</h2>
       <Carousel />
       </main>
