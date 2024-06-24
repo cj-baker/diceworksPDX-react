@@ -28,7 +28,7 @@ function Home() {
     
       <main className='App-main Container' id="homepage">
         <h2>Custom Pours</h2>
-        <img className='custom-dice' src='https://lh3.googleusercontent.com/d/11fjGeliGm9T2hgbV6RY2QfDcIYh8Mpbi' alt='image of custom wedding dice'/>
+        <img className='custom-dice' src='https://lh3.googleusercontent.com/d/11fjGeliGm9T2hgbV6RY2QfDcIYh8Mpbi' alt='custom wedding dice'/>
         <p className='custom-paragraph'>Want a set of dice that evokes your favorite D&D character? Wish that one of our sets was in a different color? Certain styles of our dice are available for custom designs! Find a style that you like, pick your favorite color(s) and fill out the Custom Dice Order Form. 
 <br/><br/>
 Dice don’t need to stay in the dungeon - we also do customized dice for larger events such as parties, weddings and birthdays like these specially-made D20 wedding favors. If you’d like to bring a little adventure to your next event, please 
