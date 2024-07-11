@@ -5,6 +5,7 @@ import Hexagons from '../components/Hexagons';
 import Carousel from "../components/Carousel"
 import Footer from '../components/Footer';
 
+
 function Home() {
   return (
     
@@ -24,6 +25,7 @@ function Home() {
           >
             Let's Roll
           </button>
+         
       </header>
     
       <main className='App-main Container' id="homepage">
