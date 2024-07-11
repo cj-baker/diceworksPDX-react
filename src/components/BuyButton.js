@@ -7,7 +7,8 @@ export default function BuyButton(){
    
     return (
         
-          <div id='product-component-1720722846735'></div>
+        <div id='product-component-1720722846735'></div>
+        
         );
       ;
 }
