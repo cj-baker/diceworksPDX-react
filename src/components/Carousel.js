@@ -2,6 +2,7 @@ import React from "react";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css'
 import "../styles/Carousel.css"
+import BuyButton from "./BuyButton";
 
 export default function Carousel() {
     return(
@@ -17,7 +18,7 @@ export default function Carousel() {
   
   } } aria-label="Recent Pours">
   <SplideSlide>
-    <img className="splide-image" src="https://lh3.googleusercontent.com/d/1klZDTARBcDScLwcaP1UBAbW4Vj09LDs3" alt="dice 1"/>
+    <BuyButton />
   </SplideSlide>
   <SplideSlide>
     <img className="splide-image" src="https://lh3.googleusercontent.com/d/1D4pwDQYTijCjktxMMn-xACR4gcy2CGB-"alt="dice 2"/>

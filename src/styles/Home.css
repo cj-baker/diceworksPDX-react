@@ -34,7 +34,7 @@
 }
 #header-button {
   width: 25%;
-  color: var(--primary-background);
+  color: var(--primary-color);
   border-color: white;
   background-color: var(--header-color);
 }
