@@ -18,7 +18,7 @@ export default function Carousel() {
   
   } } aria-label="Recent Pours">
   <SplideSlide>
-  
+  <img className="splide-image" src="https://lh3.googleusercontent.com/d/1jXlZfrtqNt-wr8HK6pUrK1EYfnEaqNle"alt="dice 1"/>
   </SplideSlide>
   <SplideSlide>
     <img className="splide-image" src="https://lh3.googleusercontent.com/d/1D4pwDQYTijCjktxMMn-xACR4gcy2CGB-"alt="dice 2"/>
