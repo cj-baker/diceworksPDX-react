@@ -7,10 +7,12 @@ import Contact from './pages/Contact.js';
 import Work from './pages/Work.js';
 import About from './pages/About.js';
 import PageNotFound from "./pages/PageNotFound.js";
+import ScrollToTop from "./components/ScrollToTop.js"
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
