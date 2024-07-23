@@ -30,14 +30,14 @@ export default function Footer(){
           <p className="">
           Copyright © 2023 DiceworksPDX
           <br />
-            This website was coded by Casey Baker and is 
+            This website was coded by 
             <a
               className="source-code-link"
-              href="https://github.com/cj-baker/diceworkspdx-react"
+              href="https://caseybaker.netlify.app/"
               target="_blank"
               rel="noreferrer"
-              title="Go to the GitHub Repository for this Website"
-              > Open Sourced</a>
+              title="Go to Casey Baker's Website"
+              > Casey Baker</a>
           </p>
         </div>
     </footer>
